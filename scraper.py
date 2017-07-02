@@ -6,12 +6,15 @@ from selenium import webdriver
 from bs4 import BeautifulSoup
 
 
+# Check Python version
+# print(platform.python_version())
+
 # Using the right PhantomJS for the corresponding OS
 if platform.system() == "Windows":
     PHANTOMJS_EXE = "./PhantomJS/phantomjs.exe"
 else:
     PHANTOMJS_EXE = "./PhantomJS/phantomjs"
-print(platform.python_version())
+
 
 def main():
     # Use PhantomJS to browse the page, alternatively we can use
