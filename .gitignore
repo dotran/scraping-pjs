@@ -8,6 +8,7 @@ __pycache__/
 
 # Distribution / packaging
 .Python
+python3.6/
 env/
 build/
 develop-eggs/
